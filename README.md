@@ -2,6 +2,9 @@
 
 A Simple Markdown Editor created with Riot.js and Electron.
 
+## Cloning Repository
+`git clone https://github.com/Naturalclar/riot-markdown-editor`
+
 ## Installing Dependencies
 `yarn install`
 

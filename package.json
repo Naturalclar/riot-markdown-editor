@@ -2,6 +2,7 @@
   "name": "riot-markdown-editor",
   "version": "1.0.0",
   "description": "Markdown Editor Made with Electron and Riot.js",
+  "repository": "https://github.com/Naturalclar/riot-markdown-editor.git",
   "main": "index.js",
   "author": "Jesse Katsumata",
   "license": "MIT",

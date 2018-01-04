@@ -34,7 +34,7 @@
         '```js',
         `const foo = 'Syntax Highlighting is supported.'`,
         '```',
-        'You can check out this repository at my [Github Page](www.google.com).'
+        'You can check out this repository at my [Github Page](https://github.com/Naturalclar/riot-markdown-editor).'
       ].join('\n\n'));
 
     });
