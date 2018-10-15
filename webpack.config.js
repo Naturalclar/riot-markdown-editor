@@ -56,6 +56,7 @@ module.exports = {
       jQuery: 'jquery',
       'window.jQuery': 'jquery',
       riot: 'riot',
+      Popper: ['popper.js', 'default'],
     }),
     new HtmlWebpackPlugin({
       title: 'Riot Markdown Editor',
