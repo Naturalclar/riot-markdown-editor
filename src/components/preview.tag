@@ -1,12 +1,12 @@
 <!--preview.tag-->
 <app-preview>
-  <div class="test">
+  <section id="preview">
     <article class="markdown-body"></article>
-  </div>
+  </section>
   <style>
-    .test {
+    #preview {
       position: absolute;
-      top: 0;
+      top:0;
       left: 0;
       right: 0;
       bottom: 0;
