@@ -11,9 +11,16 @@
     "babel-loader": "^7.1.2",
     "babel-preset-es2015-riot": "^1.1.0",
     "css-loader": "^0.28.7",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-riot": "^0.1.8",
     "file-loader": "^1.1.6",
     "html-webpack-plugin": "^2.30.1",
     "markdown-it": "^8.4.0",
+    "prettier": "^1.15.3",
     "riot-tag-loader": "^2.0.2",
     "style-loader": "^0.19.1",
     "url-loader": "^0.6.2",
@@ -32,6 +39,7 @@
   "scripts": {
     "start": "electron ./index.js",
     "build": "webpack -p",
-    "watch": "webpack -w"
+    "watch": "webpack -w",
+    "lint": "eslint src"
   }
 }

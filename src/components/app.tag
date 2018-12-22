@@ -6,7 +6,7 @@
         <app-editor editor="{ editor }"></app-editor>
       </div>
       <div class="col-6">
-        <app-preview editor="{ editor }"></app-preview>
+        <app-preview editor="{ editor }"></app-preview>      
       </div>
     </div>
   </div>
