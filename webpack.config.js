@@ -1,5 +1,5 @@
-const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: `${__dirname}/src/main.js`,
@@ -8,10 +8,10 @@ module.exports = {
     filename: 'bundle.js',
   },
   resolve: {
-    extensions: ['.js']
+    extensions: ['.js'],
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.tag$/,
         enforce: 'pre',
@@ -19,26 +19,23 @@ module.exports = {
         use: [
           {
             loader: 'riot-tag-loader',
-            query: {
-              type: 'es6',
-            }
-          }
-        ]
+            options: {
+              hot: false,
+            },
+          },
+        ],
       },
       {
         test: /\.(tag|js)$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
         options: {
-          presets: ['es2015-riot'],
-        }
+          presets: ['@babel/preset-env'],
+        },
       },
       {
         test: /\.css$/,
-        use: [
-          'style-loader',
-          'css-loader',
-        ],
+        use: ['style-loader', 'css-loader'],
       },
       {
         test: /\.woff2?(\?v=\d+\.\d+\.\d+)?$/,
@@ -48,7 +45,7 @@ module.exports = {
         test: /\.(ttf|eot|svg)(\?[\s\S]+)?$/,
         use: 'file-loader?name=./[name].[ext]',
       },
-    ]
+    ],
   },
   plugins: [
     new webpack.ProvidePlugin({
@@ -63,5 +60,5 @@ module.exports = {
       template: `${__dirname}/src/index.html`,
       filename: 'index.html',
     }),
-  ]
+  ],
 }
