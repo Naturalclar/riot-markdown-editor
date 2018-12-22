@@ -1,5 +1,7 @@
 # Riot-Markdown-Editor
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Naturalclar/riot-markdown-editor.svg)](https://greenkeeper.io/)
+
 A Simple Markdown Editor created with Riot.js and Electron.
 
 ## Cloning Repository
