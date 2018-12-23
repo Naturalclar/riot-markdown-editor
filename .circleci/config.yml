@@ -6,6 +6,8 @@ jobs:
       - image: circleci/node:10
     steps:
       - checkout
+      - run: npm install -g yarn
+      - run: yarn -v
 
       - restore_cache:
           key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
@@ -31,6 +33,8 @@ jobs:
       - image: circleci/node:10
     steps:
       - checkout
+      - run: npm install -g yarn
+      - run: yarn -v
 
       - restore_cache:
           key: yarn-v1-{{ checksum "yarn.lock" }}-{{ arch }}
