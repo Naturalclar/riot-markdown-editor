@@ -1,7 +1,7 @@
 # Riot-Markdown-Editor
 
 A Simple Markdown Editor created with Riot.js and Electron.
-[![CircleCI](https://circleci.com/gh/Naturalclar/riot-markdown-editor.svg?style=shield)](https://circleci.com/gh/Naturalclar/riot-markdown-editor)
+[![CircleCI](https://circleci.com/gh/Naturalclar/riot-markdown-editor.svg?style=shield)](https://circleci.com/gh/Naturalclar/riot-markdown-editor) [![Greenkeeper badge](https://badges.greenkeeper.io/Naturalclar/riot-markdown-editor.svg)](https://greenkeeper.io/)
 
 ## Cloning Repository
 
