@@ -35,7 +35,7 @@
     "highlight.js": "^10.4.1",
     "jquery": "^3.5.0",
     "popper.js": "^1.14.4",
-    "riot": "^3.8.1"
+    "riot": "^3.13.2"
   },
   "scripts": {
     "start": "electron ./index.js",
