@@ -7,10 +7,9 @@
   "author": "Jesse Katsumata",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "babel-loader": "^8.0.4",
-    "css-loader": "^3.3.2",
+    "@babel/preset-env": "^7.24.3",
+    "babel-loader": "^9",
+    "css-loader": "^6",
     "eslint": "^6.0.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "6.1.0",
@@ -18,14 +17,14 @@
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-riot": "^0.1.8",
     "file-loader": "^4.0.0",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5",
     "markdown-it": "^12.3.2",
     "prettier": "^1.15.3",
     "riot-tag-loader": "^2.1.0",
-    "style-loader": "^1.0.0",
-    "url-loader": "^2.0.0",
-    "webpack": "^4.28.1",
-    "webpack-cli": "^3.1.2"
+    "style-loader": "^3",
+    "url-loader": "^4",
+    "webpack": "^5",
+    "webpack-cli": "^5"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
@@ -39,7 +38,7 @@
   },
   "scripts": {
     "start": "electron ./index.js",
-    "build": "webpack -p",
+    "build": "webpack build --mode production",
     "watch": "webpack -w",
     "lint": "eslint src"
   }
